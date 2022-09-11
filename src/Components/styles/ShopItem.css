@@ -1,0 +1,45 @@
+.shop {
+  background-color: mediumvioletred;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 2rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.shop p {
+  background-color: white;
+  color: rgb(192, 8, 238);
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.shop h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.shop h1 {
+  font-weight: bold;
+  background-color: rgb(101, 5, 66);
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .shop p {
+    width: 95%;
+  }
+
+  .shop {
+    margin: 2rem 1rem;
+  }
+}

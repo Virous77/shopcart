@@ -1,0 +1,63 @@
+.cool {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: mediumvioletred;
+  margin-bottom: 8rem;
+}
+
+.auth {
+  text-align: center;
+}
+
+.cool h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  background-color: mediumvioletred;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin: auto;
+}
+
+.submit {
+  width: 70%;
+  padding: 12px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid mediumvioletred;
+  background-color: white;
+  color: mediumvioletred;
+}
+
+.submit:hover {
+  background-color: mediumvioletred;
+  color: white;
+  border: 2px solid white;
+}

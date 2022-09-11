@@ -1,0 +1,128 @@
+.cart-bars {
+  background-color: mediumvioletred;
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.head h2 {
+  color: white;
+}
+
+.cart-items {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.item-name {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+.item-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-price {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.item-button {
+  align-self: flex-end;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.item-button button {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid mediumvioletred;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.item-button button:hover {
+  background-color: mediumvioletred;
+  color: white;
+}
+
+.order {
+  text-align: end;
+}
+
+.order button {
+  padding: 6px 2rem;
+  margin-top: 1rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: mediumvioletred;
+}
+
+.order button:hover {
+  background-color: mediumvioletred;
+  color: white;
+}
+
+.empty {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: white;
+  color: mediumvioletred;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.orderIt {
+  background-color: blueviolet;
+  padding: 1rem;
+  width: 437px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.done {
+  background-color: white;
+  color: red;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .cart-bars {
+    margin: 2rem 1rem;
+  }
+
+  .orderIt {
+    width: 100%;
+  }
+
+  .item-name h1 {
+    font-size: 1.2rem;
+  }
+}
